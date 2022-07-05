@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.orangered {
+    color: rgb(252, 131, 62);
+}
+.greyish {
+    color: rgb(85, 83, 83);
+}
+
+.diet {
+    display: flex;
+}
+
+.diet--text {
+
+}
+
+.diet--image {
+    /* background-image: url(images/shapes/Group8450.png); */
+    background: no-repeat center/80% url("images/shapes/Group8450.png");
+    margin-top: 70px;
+    position: relative;
+    height: 100vh;
+}
+
+#diet--image__img {
+    width: 100%;
+    position: absolute;
+    top: -120px;
+    right: 50px;
+}
+
+.half--width {
+    width: 50%;
+}
