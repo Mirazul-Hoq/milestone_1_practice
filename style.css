@@ -14,6 +14,10 @@ h1 {
     margin-left: 70px;
 }
 
+h2 {
+    font-size: 55px;
+}
+
 .orangered {
     color: rgb(252, 131, 62);
 }
@@ -21,8 +25,18 @@ h1 {
     color: rgb(85, 83, 83);
 }
 
-.diet {
+.blackish {
+    color: rgb(27, 26, 26);
+}
+
+.display--flex {
     display: flex;
+}
+
+/* DIET SECTION */
+
+.diet {
+    
 }
 
 .diet--text {
@@ -46,4 +60,38 @@ h1 {
 
 .half--width {
     width: 50%;
+}
+
+/* ABOUT ME SECTION */
+
+.about--me {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.myimg {
+    height: 80vh;
+    position: relative;
+}
+
+.myimg img {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 30%; 
+    top: 23px;  
+}
+
+.myinfo {
+    padding-top: 100px;
+    padding-right: 200px;
+}
+
+.myinfo h2 {
+    margin-bottom: 30px;
+}
+
+.myinfo p {
+    line-height: 1.5rem;
 }
